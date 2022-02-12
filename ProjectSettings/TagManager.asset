@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Cube
   - Wall
+  - Sphere
   layers:
   - Default
   - TransparentFX
