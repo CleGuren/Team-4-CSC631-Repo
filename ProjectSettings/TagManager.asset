@@ -10,6 +10,9 @@ TagManager:
   - Wall
   - Sphere
   - Button
+  - Toy
+  - Toy Sheep
+  - ToySheep
   layers:
   - Default
   - TransparentFX
