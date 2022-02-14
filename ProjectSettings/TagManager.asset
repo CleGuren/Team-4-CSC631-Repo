@@ -10,9 +10,9 @@ TagManager:
   - Wall
   - Sphere
   - Button
-  - Toy
-  - Toy Sheep
   - ToySheep
+  - Kid
+  - ToyPenguin
   layers:
   - Default
   - TransparentFX
