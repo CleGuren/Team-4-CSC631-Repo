@@ -5,7 +5,7 @@ using UnityEngine;
 public class KidController : MonoBehaviour
 {
     Vector3 target;
-    float speed = 2.0f;
+    float speed = 5.0f;
 
     // Start is called before the first frame update
     void Start()
