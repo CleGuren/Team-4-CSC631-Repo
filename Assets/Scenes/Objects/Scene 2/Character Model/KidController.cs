@@ -13,7 +13,7 @@ public class KidController : MonoBehaviour
         SetNewTarget(new Vector3(
             transform.position.x,
             transform.position.y,
-            transform.position.z - 10
+            transform.position.z 
         ));
     }
 
