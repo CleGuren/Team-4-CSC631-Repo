@@ -21,7 +21,7 @@ public class KidMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0)){
+        if(Input.GetMouseButtonDown(1)){
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         animator.SetBool("isMoving", true);
 
