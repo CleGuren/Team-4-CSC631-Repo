@@ -5,11 +5,10 @@ using UnityEngine.AI;
 
 public class KidMovement : MonoBehaviour
 {
-    public Camera camera;
+    public Camera mainCamera;
     private RaycastHit hit;
     private NavMeshAgent agent;
     private string groundTag = "Ground";
-    private CharacterController CharacterController;
     private Animator animator;
 
     // Start is called before the first frame update
@@ -23,7 +22,7 @@ public class KidMovement : MonoBehaviour
     void Update()
     {
         if(Input.GetMouseButtonDown(0)){
-        Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         animator.SetBool("isMoving", true);
 
         if(Physics.Raycast(ray, out hit, Mathf.Infinity)){
