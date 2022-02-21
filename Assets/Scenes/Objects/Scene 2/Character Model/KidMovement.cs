@@ -10,12 +10,14 @@ public class KidMovement : MonoBehaviour
     private NavMeshAgent agent;
     private string groundTag = "Ground";
     private Animator animator;
+    private Rigidbody kid;
 
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent <NavMeshAgent>();
         animator = GetComponent<Animator>();
+        kid = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -33,6 +35,7 @@ public class KidMovement : MonoBehaviour
         }
         else{
             animator.SetBool("isMoving", false);
+            kid.isKinematic = true;
         }
     }
 }
