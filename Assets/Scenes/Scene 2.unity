@@ -7693,7 +7693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ca7dd4eb70c4419baf6c59b00f32c75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 963194227}
+  mainCamera: {fileID: 1909756457}
 --- !u!65 &2138572749
 BoxCollider:
   m_ObjectHideFlags: 0
