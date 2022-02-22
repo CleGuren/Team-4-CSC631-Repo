@@ -27,6 +27,7 @@ public class KidMovement : MonoBehaviour
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         animator.SetBool("isMoving", true);
 
+
         if(Physics.Raycast(ray, out hit, Mathf.Infinity)){
             if(hit.collider.CompareTag(groundTag)){
                 agent.SetDestination(hit.point);
@@ -36,8 +37,6 @@ public class KidMovement : MonoBehaviour
         else{
             animator.SetBool("isMoving", false);
             kid.isKinematic = true;
-            kid.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
-
         }
     }
 }
