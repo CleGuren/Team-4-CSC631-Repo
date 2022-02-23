@@ -1888,7 +1888,6 @@ GameObject:
   - component: {fileID: 1575248015}
   - component: {fileID: 1575248014}
   - component: {fileID: 1575248017}
-  - component: {fileID: 1575248018}
   m_Layer: 0
   m_Name: CM StateDrivenCamera1
   m_TagString: Untagged
@@ -2010,36 +2009,6 @@ MonoBehaviour:
       m_Action: Action
       m_Flags: 0
     m_Flags: 0
---- !u!114 &1575248018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1575248013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3978d8a9451fdaa41b20407fa8b85194, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  action:
-    m_Name: Action
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: d7518bfa-d78f-4be3-a487-3c3b50c38ed7
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 7919d6bd-975b-4415-ba75-1a19b6a66976
-      m_Path: <Mouse>/rightButton
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Action
-      m_Flags: 0
-    m_Flags: 0
-  ObjectToCopy: {fileID: 1474939921}
 --- !u!1 &1600775885
 GameObject:
   m_ObjectHideFlags: 0
@@ -2130,6 +2099,7 @@ GameObject:
   - component: {fileID: 1726096811}
   - component: {fileID: 1726096810}
   - component: {fileID: 1726096809}
+  - component: {fileID: 1726096812}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -2194,6 +2164,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1726096812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726096808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3978d8a9451fdaa41b20407fa8b85194, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_Name: Action
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 60c37fb2-a0b1-43a2-bf31-a39a6443f3e4
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 36e75658-bfc6-4cc8-83a5-bf43e1eb7d17
+      m_Path: <Mouse>/rightButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Action
+      m_Flags: 0
+    m_Flags: 0
+  ObjectToCopy: {fileID: 1474939921}
 --- !u!1 &1974098303
 GameObject:
   m_ObjectHideFlags: 0
