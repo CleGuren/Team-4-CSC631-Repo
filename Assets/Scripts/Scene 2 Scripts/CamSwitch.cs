@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CamSwitch : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class CamSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("c")) {
+        if(Keyboard.current.cKey.wasPressedThisFrame) {
             tdCameraEnabled = !tdCameraEnabled;
             mainCamera.enabled = !tdCameraEnabled;
             topDownCamera.enabled = tdCameraEnabled;
