@@ -1,0 +1,34 @@
+{
+    "name": "Inputs",
+    "maps": [
+        {
+            "name": "Mouse",
+            "id": "406cfa9b-fe72-42da-ac1e-d4917944b40e",
+            "actions": [
+                {
+                    "name": "rightClick",
+                    "type": "Button",
+                    "id": "857205f6-8512-472e-94d7-bc511c241ee8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f48ba9c3-db8b-48d6-a4c5-79dc78e45a6f",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "rightClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
