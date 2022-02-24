@@ -19,8 +19,6 @@ public class KidMovement : MonoBehaviour
         kid = GetComponent<Rigidbody>();
     }
     
-    
-
     // Update is called once per frame
     void Update()
     {
@@ -38,5 +36,6 @@ public class KidMovement : MonoBehaviour
             animator.SetBool("isMoving", false);
             kid.isKinematic = true;
         }
+        mainCamera = Camera.allCameras[0];
     }
 }
